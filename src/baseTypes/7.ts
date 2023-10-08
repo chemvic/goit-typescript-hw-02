@@ -17,4 +17,4 @@ function isWeekend (day: Weekdays): boolean{
   return false;
 }};
 
-isWeekend(Weekdays.Monday);
+console.log(isWeekend(Weekdays.Sunday));
